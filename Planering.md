@@ -9,12 +9,12 @@
 
 | Namn | Klass | Huvudansvar |
 |---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
+| Amir | 240s | |
+| Kristóf | 240s | |
+| Max | 240s | |
+| Mattias | 240s | |
 
-**Projektnamn:**
+**Projektnamn: Skvåsch**
 
 **GitHub-repo (länk):**
 
@@ -24,15 +24,19 @@
 
 **Vilken sport har ni valt?**
 
-*Exempel: Bowling.*
+Squash
 
 **Beskriv spelet i 3–5 meningar. Vad gör spelaren? Vad är målet?**
 
-*Exempel: Spelaren står vid en bowlinglinje i en bowlinghall. Man plockar upp klotet med handkontrollen och kastar det mot tio käglor. Spelet räknar antal nedslagna käglor per kast och visar poängen på en tavla ovanför banan. Efter 10 rutor visas slutresultatet.*
+Spelaren står i ett rum och slår en boll med racket mot väggen. Målet är att fortsätta slå bollen utan miss så många ggr som möjligt.
 
 **Varför är den här sporten lämplig i VR?**
 
+Cool sport, väldigt fysikinteragerande
+
 **Vad gör ert spel roligt? (Vad är "kroken"?)**
+
+Sporten är rolig, därmed spelet.
 
 ---
 
@@ -52,21 +56,28 @@ Rita spelplanen, var spelaren står, vad hen ser och hur UI:t ser ut. Handritat 
 
 **Vad kan spelaren göra med händerna?**
 
-*Exempel: Greppa klotet med greppknappen, svinga armen och släppa för att kasta.*
+Greppa boll, kasta för att starta
+Greppa racket för att slå
 
 **Vilka fysikobjekt finns och hur beter de sig?**
 
 | Objekt | Rigidbody? | Collider | Beteende |
 |---|---|---|---|
-| *Klot* | *Ja* | *Sphere* | *Rullar, påverkas av gravitation* |
-| *Kägla* | *Ja* | *Capsule* | *Välter vid träff* |
+| Boll | Ja | Sphere | Rullar, påverkas av gravitation, studsar |
+| Racket | Ja | *nå rect grej* | kan slå bollen |
 | | | | |
 
 **Hur räknas poäng? Skriv reglerna tydligt.**
 
+Varje slag med racketet är ett poäng
+
 **Hur vinner eller förlorar man?**
 
+Om bollen studsar en andra gång utan att slås av racketet har man förlorat. Vinst existerar inte utan man jagar highscore
+
 **Hur startas spelet om?**
+
+Plocka upp bollen igen och helt enkelt börja köra igen
 
 ---
 
@@ -103,15 +114,18 @@ Dela upp funktionerna. **Måste** ska vara klart för godkänt — börja alltid
 
 | Område | Ansvarig | Beskrivning |
 |---|---|---|
-| VR-uppsättning (XR Origin, interaktion) | | |
-| Spelmekanik och fysik | | |
-| Poängsystem och regler | | |
-| 3D-modeller och miljö | | |
-| UI och menyer | | |
-| Ljud | | |
-| Testning och bygge | | |
+| VR-uppsättning (XR Origin, interaktion) | Kristóf | |
+| Spelmekanik och fysik | Max | |
+| Poängsystem och regler | Amir | |
+| 3D-modeller och miljö | Mattias | |
+| UI och menyer | Mattias | |
+| Ljud | Max | |
+| Testning och bygge | Amir | |
 
-**Hur samarbetar ni i Git?** *(branches, vem äger scenen, hur ofta ni pushar)*
+**Hur samarbetar ni i Git?**
+Amir äger scenen
+Inga jävla branches
+Push varje gång något funkar
 
 ---
 
@@ -119,17 +133,16 @@ Dela upp funktionerna. **Måste** ska vara klart för godkänt — börja alltid
 
 | Vecka | Mål — vad ska vara klart? | Ansvarig |
 |---|---|---|
-| 1 | *Unity + VR installerat, tutorial genomförd, planering godkänd* | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
-| 6 | | |
+| 1 | Unity + VR installerat, tutorial genomförd, planering godkänd | |
+| 2 | - | |
+| 3 | Första prototyp | |
+| 4 | "polished" version | |
 
 **Deadline för första spelbara version (prototyp):**
+3/9
 
 **Deadline för färdigt bygge:**
-
+11/9
 ---
 
 ## 8. Assets

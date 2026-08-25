@@ -1,4 +1,3 @@
-S4squash/** filter=lfs diff=lfs merge=lfs -text
 S4squash/Assets/**/*.fbx filter=lfs diff=lfs merge=lfs -text
 S4squash/Assets/**/*.obj filter=lfs diff=lfs merge=lfs -text
 S4squash/Assets/**/*.psd filter=lfs diff=lfs merge=lfs -text

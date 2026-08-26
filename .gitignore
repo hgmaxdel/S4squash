@@ -1,5 +1,9 @@
-S4squash/Library
-S4squash/.vs
-S4squash/Logs
-S4squash/ProfilerCaptures
-S4squash/UserSettings
+S4squash/Library/
+S4squash/.vs/
+S4squash/Logs/
+S4squash/ProfilerCaptures/
+S4squash/UserSettings/
+S4squash/Temp/
+S4squash/Obj/
+S4squash/Build/
+S4squash/Builds/

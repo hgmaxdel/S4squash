@@ -16,7 +16,7 @@
 
 **Projektnamn: Skvåsch**
 
-**GitHub-repo (länk):**
+**GitHub-repo (länk): https://github.com/hgmaxdel/S4squash.git**
 
 ---
 
@@ -49,6 +49,10 @@ Rita spelplanen, var spelaren står, vad hen ser och hur UI:t ser ut. Handritat 
 - [ ] Skiss: startmeny och poängtavla
 
 *Länkar till bilder:*
+
+![Spelplan](Dokumentation\VR_spelplan.png)
+![FPV](Dokumentation\VR_fpv.png)
+![Startmeny](Dokumentation\VR_startmeny.png)
 
 ---
 

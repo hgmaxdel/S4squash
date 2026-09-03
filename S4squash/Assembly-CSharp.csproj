@@ -55,7 +55,6 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\VR Raycaster.cs" />
     <Compile Include="Assets\Scripts\LaserPointer.cs" />
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\AnimateHandOnInput.cs" />
   </ItemGroup>
   <ItemGroup>

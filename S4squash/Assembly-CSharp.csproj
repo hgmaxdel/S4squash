@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\VR Raycaster.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\UIAudio.cs" />
     <Compile Include="Assets\Scripts\LaserPointer.cs" />
     <Compile Include="Assets\Scripts\SceneTransitionManager.cs" />

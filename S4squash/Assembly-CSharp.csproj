@@ -58,13 +58,13 @@
     <Compile Include="Assets\Scripts\CollisionHandler.cs" />
     <Compile Include="Assets\Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\Scoreboard.cs" />
+    <Compile Include="Assets\Scripts\AnimateHandOnInput.cs" />
     <Compile Include="Assets\Scripts\UIAudio.cs" />
     <Compile Include="Assets\Scripts\LaserPointer.cs" />
     <Compile Include="Assets\Scripts\SceneTransitionManager.cs" />
     <Compile Include="Assets\Scripts\ScoreCount.cs" />
     <Compile Include="Assets\Scripts\SetOptionFromUI.cs" />
     <Compile Include="Assets\Scripts\GameStartMenu.cs" />
-    <Compile Include="Assets\AnimateHandOnInput.cs" />
     <Compile Include="Assets\Scripts\PlayAudioFromAudioManager.cs" />
     <Compile Include="Assets\Scripts\FadeScreen.cs" />
     <Compile Include="Assets\Scripts\SetTurnTypeFromPlayerPref.cs" />

@@ -18,15 +18,6 @@ public class Ball : MonoBehaviour
 
         // Don't let gravity affect the object initially
         rb.useGravity = false;
-
-        // Listen for the player grabbing it
-        grabInteractable.selectEntered.AddListener(OnGrab);
-    }
-
-    void OnGrab(SelectEnterEventArgs args)
-    {
-        // Object has been picked up for the first time
-        rb.useGravity = true;
     }
 
     void Update()
@@ -39,17 +30,15 @@ public class Ball : MonoBehaviour
 
     void Respawn()
     {
-        transform.position = startPosition;
+        
 
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
 
         // Disable gravity again after respawning
         rb.useGravity = false;
-    }
-
-    void OnDestroy()
-    {
-        grabInteractable.selectEntered.RemoveListener(OnGrab);
+        rb.isKinematic = true;
+        rb.position = startPosition;
+        rb.isKinematic = false;
     }
 }

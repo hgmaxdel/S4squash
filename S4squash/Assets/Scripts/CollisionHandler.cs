@@ -14,7 +14,7 @@ public class CollisionHandler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("ScoreHitBox"))
+        if (other.gameObject.CompareTag("ScoreHtBox"))
         {
             AddScore();
             Debug.Log("Hit");

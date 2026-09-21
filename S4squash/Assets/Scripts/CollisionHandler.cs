@@ -6,11 +6,27 @@ public class CollisionHandler : MonoBehaviour
     private int scoreCount = 0;
     private int bounceCount = 0;
     public TMP_Text scoreText;
+    public TMP_Text highScoreText;
+    public int highScore;
+
+    void Start()
+    {
+        highScore = PlayerPrefs.GetInt("HighScore", 0);
+        highScoreText.text = "Highscore: " + highScore.ToString();
+    }
 
     public void AddScore()
     {
         scoreCount++;
         scoreText.text = "Score: " + scoreCount.ToString();
+        if (scoreCount > highScore)
+        {
+            highScore = scoreCount;
+            PlayerPrefs.SetInt("HighScore", highScore);
+            PlayerPrefs.Save();
+            highScoreText.text = "Highscore: " + highScore.ToString();
+        }
+
     }
 
     public void AddBounceCount()

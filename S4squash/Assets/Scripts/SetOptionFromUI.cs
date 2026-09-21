@@ -27,7 +27,9 @@ public class SetOptionFromUI : MonoBehaviour
 
     public void SetTurnPlayerPref(int value)
     {
-        PlayerPrefs.SetInt("turn", value); 
+        PlayerPrefs.SetInt("turn", value);
+        PlayerPrefs.Save();
+
         turnTypeFromPlayerPref.ApplyPlayerPref();
     }
 }

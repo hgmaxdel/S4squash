@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;    
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class Ball : MonoBehaviour
@@ -8,6 +9,8 @@ public class Ball : MonoBehaviour
     private UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grabInteractable;
 
     [SerializeField] private float outOfBoundsY = -10f;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip hitSound;
 
     void Start()
     {
@@ -30,7 +33,7 @@ public class Ball : MonoBehaviour
 
     void Respawn()
     {
-        
+
 
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
@@ -40,5 +43,12 @@ public class Ball : MonoBehaviour
         rb.isKinematic = true;
         rb.position = startPosition;
         rb.isKinematic = false;
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (audioSource != null && hitSound != null)
+        {
+            audioSource.PlayOneShot(hitSound);
+        }
     }
 }

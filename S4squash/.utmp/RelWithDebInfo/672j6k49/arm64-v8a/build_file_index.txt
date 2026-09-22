@@ -1,0 +1,2 @@
+C:\Programmering\VR\S4squash\S4squash\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Programmering\VR\S4squash\S4squash\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

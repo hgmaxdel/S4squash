@@ -1,0 +1,5 @@
+C:/Programmering/VR/S4squash/S4squash/.utmp/RelWithDebInfo/672j6k49/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Programmering/VR/S4squash/S4squash/.utmp/RelWithDebInfo/672j6k49/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Programmering/VR/S4squash/S4squash/.utmp/RelWithDebInfo/672j6k49/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Programmering/VR/S4squash/S4squash/.utmp/RelWithDebInfo/672j6k49/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Programmering/VR/S4squash/S4squash/.utmp/RelWithDebInfo/672j6k49/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

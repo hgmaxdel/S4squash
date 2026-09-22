@@ -13,6 +13,7 @@ public class CollisionHandler : MonoBehaviour
     {
         highScore = PlayerPrefs.GetInt("HighScore", 0);
         highScoreText.text = "Highscore: " + highScore.ToString();
+        print(highScore);
     }
 
     public void AddScore()
@@ -25,6 +26,7 @@ public class CollisionHandler : MonoBehaviour
             PlayerPrefs.SetInt("HighScore", highScore);
             PlayerPrefs.Save();
             highScoreText.text = "Highscore: " + highScore.ToString();
+            print(highScore);
         }
 
     }

@@ -53,6 +53,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\analyzers\dotnet\roslyn4.0\cs\System.Text.Json.SourceGeneration.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Racket.cs" />
     <Compile Include="Assets\Scripts\VR Raycaster.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\CollisionHandler.cs" />

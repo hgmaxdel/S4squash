@@ -127,9 +127,7 @@ Dela upp funktionerna. **Måste** ska vara klart för godkänt — börja alltid
 | Testning och bygge | Amir | |
 
 **Hur samarbetar ni i Git?**
-Amir äger scenen
-Inga jävla branches
-Push varje gång något funkar
+Huvudsakligen i main, skapar branches när det behövs.
 
 ---
 
